@@ -1,0 +1,24 @@
+{
+  "name": "eset-free-key-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Enver Arslan <enver@programmer.net>",
+  "license": "MIT",
+  "scripts": {
+    "lic-count": "node index.js",
+    "fetch": "node index.js -l",
+    "save": "node index.js -s",
+    "del-users": "node index.js -d",
+    "importer": "node index.js -i"
+  },
+  "dependencies": {
+    "@cemalgnlts/mailjs": "^1.0.1",
+    "@types/faker": "^5.5.9",
+    "axios": "^0.24.0",
+    "faker": "^5.5.3",
+    "node-telegram-bot-api": "^0.54.0",
+    "puppeteer": "^11.0.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
